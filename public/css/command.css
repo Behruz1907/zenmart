@@ -1,3 +1,7 @@
+:root {
+  --font: "Jost";
+}
+
 html,
 body {
   margin: 0;
@@ -88,7 +92,7 @@ p {
   border: none;
   outline: none;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-size: 15px;
   line-height: 22px;
@@ -172,7 +176,7 @@ p {
 }
 
 .navbar_frame .box_info_box span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -181,7 +185,7 @@ p {
 }
 
 .navbar_frame .box_info_box strong {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -205,7 +209,7 @@ p {
   background-color: #f5c34b;
   border-radius: 50%;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 8px;
   font-weight: 700;
   line-height: 10px;
@@ -253,7 +257,7 @@ p {
 }
 
 .navbar_frame .browse_box span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
@@ -279,7 +283,7 @@ p {
 }
 
 .navbar_frame .router_menu a {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -325,7 +329,7 @@ p {
 .footer_frame .footer_spec_title {
   display: block;
   margin-bottom: 30px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -370,7 +374,7 @@ p {
 }
 
 .footer_frame .footer_contact_main strong {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
 
   font-weight: 500;
@@ -382,7 +386,7 @@ p {
 
 .footer_frame .footer_contact_main span {
   margin-top: 10px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
 
   font-weight: 400;
@@ -400,7 +404,7 @@ p {
 }
 
 .footer_frame .footer_support_box a {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
 
   font-weight: 400;
@@ -437,7 +441,7 @@ p {
 
 .footer_frame .mobile_app_box span {
   margin-left: 20px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
 
   font-weight: 400;
@@ -483,7 +487,7 @@ p {
 
 .footer_frame .footer_bottom_left span {
   margin-right: 60px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
 
   font-weight: 400;
@@ -519,7 +523,7 @@ p {
 }
 
 .footer_frame .footer_select_box span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
 
   font-weight: 400;
