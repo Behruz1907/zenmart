@@ -109,6 +109,7 @@
 
 .container .product_wrapper .next_prev_box {
   width: 25px;
+  z-index: 9;
 }
 
 .container .next_prev_box img {
