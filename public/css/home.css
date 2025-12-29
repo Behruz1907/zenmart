@@ -109,7 +109,7 @@
 
 .container .product_wrapper .next_prev_box {
   width: 25px;
-  z-index: 9;
+  z-index: 99;
 }
 
 .container .next_prev_box img {
@@ -572,6 +572,7 @@
 .selling_product_frame .container .product_wrapper {
   position: relative;
   margin-top: 30px;
+  overflow: hidden;
 
   width: 100%;
   height: auto;
