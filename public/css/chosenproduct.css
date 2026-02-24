@@ -1,0 +1,447 @@
+.chosenProduct_page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chosenProduct_page .category_top_frame {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  border: 1px solid #eaeaea;
+}
+
+.chosenProduct_page .category_top_frame .container {
+  height: 50px;
+  flex-direction: row;
+}
+.chosenProduct_page .category_top_frame .container div {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: rgba(4, 30, 66, 1);
+}
+
+.chosenProduct_page .category_top_frame .container div:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #041e42;
+}
+
+.chosenProduct_page .product_top {
+  margin-bottom: 90px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+/* Product Top */
+
+.chosenProduct_page .product_top .container {
+  flex-direction: row;
+}
+
+.chosenProduct_page .container .product_images_main {
+  width: 631px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.chosenProduct_page .product_images_main .product_big_image {
+  position: relative;
+  width: 100%;
+  height: 680px;
+
+  background: url("/public/images/other/chosenproductbigimage.png");
+  background-size: cover;
+}
+
+.chosenProduct_page .product_big_image img {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+
+  width: 24px;
+  height: 24px;
+}
+
+.chosenProduct_page .product_images_main span {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #041e42;
+}
+
+.chosenProduct_page .product_images_main .product_small_img_wrapper {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.chosenProduct_page .product_small_img_wrapper .product_small_img_box {
+  margin-right: 20px;
+  width: 73px;
+  height: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.chosenProduct_page .product_small_img_box img {
+  width: 55px;
+  height: 60px;
+}
+
+.chosenProduct_page .product_small_img_wrapper .active {
+  border: 2px solid #443297;
+}
+
+.chosenProduct_page .product_top .container .product_content_main {
+  margin-left: 50px;
+  width: 637px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.chosenProduct_page .product_content_main .product_review_box {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.chosenProduct_page .product_review_box .apple {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.chosenProduct_page .product_review_box .vertical_line {
+  width: 1px;
+  height: 20px;
+
+  background: rgba(234, 234, 234, 1);
+}
+
+.chosenProduct_page .product_content_main .product_title {
+  width: 637px;
+  height: 64px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+
+  color: rgba(4, 30, 66, 1);
+}
+
+.chosenProduct_page .product_content_main .horizontal_line {
+  width: 637px;
+  height: 1px;
+
+  background: rgba(234, 234, 234, 1);
+}
+
+.chosenProduct_page .product_content_main .product_price_box {
+  margin-top: 20px;
+  width: 165px;
+  height: 38px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.chosenProduct_page .product_price_box strong {
+  width: 85px;
+  height: 38px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  color: rgba(4, 30, 66, 1);
+}
+
+.chosenProduct_page .product_price_box span {
+  width: 70px;
+  height: 28px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: rgba(98, 105, 116, 1);
+}
+
+.chosenProduct_page .product_content_main .product_info_box {
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.chosenProduct_page .product_info_box .product_info {
+  display: flex;
+  flex-direction: row;
+}
+
+.chosenProduct_page .product_info_box .product_info strong {
+  width: 250px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #041e42;
+}
+.chosenProduct_page .product_info_box .product_info span {
+  width: 250px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: rgba(4, 30, 66, 1);
+}
+
+.chosenProduct_page .product_content_main .horizontal_line2 {
+  margin-top: 10px;
+  width: 637px;
+  height: 1px;
+
+  background: rgba(234, 234, 234, 1);
+}
+
+.chosenProduct_page .product_content_main .buy_box {
+  margin: 20px 0px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chosenProduct_page .buy_box .quantity_box {
+  width: 154px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #ffffff;
+
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 60px;
+}
+
+.chosenProduct_page .quantity_box .active {
+  background: #f3f5f6;
+}
+
+.chosenProduct_page .quantity_box .add_remove_btn {
+  width: 35px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  cursor: pointer;
+
+  color: #041e42;
+}
+
+.chosenProduct_page .quantity_box span {
+  width: 10.54px;
+  height: 22px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+
+  color: rgba(4, 30, 66, 1);
+}
+
+.chosenProduct_page .buy_box .product_card {
+  width: 175.64px;
+  height: 52px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 35px 15px 35px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(245, 195, 75, 1);
+  border-radius: 60px;
+  background: rgba(245, 195, 75, 1);
+}
+
+.chosenProduct_page .product_card span {
+  font-family: "Jost";
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: rgba(4, 30, 66, 1);
+}
+
+.chosenProduct_page .buy_box .product_buy {
+  width: 175.64px;
+  height: 52px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 15px 35px 15px 35px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(68, 50, 151, 1);
+  border-radius: 60px;
+  background: rgba(68, 50, 151, 1);
+}
+
+.chosenProduct_page .product_buy span {
+  width: 60px;
+  height: 22px;
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 15px;
+
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 1);
+}
+
+.chosenProduct_page .product_content_main .horizontal_line3 {
+  margin-top: 10px;
+  width: 637px;
+  height: 1px;
+
+  background: rgba(234, 234, 234, 1);
+}
+
+.chosenProduct_page .product_content_main .product_tag_category_box {
+  margin: 20px 0px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.chosenProduct_page .product_tag_category_box span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(4, 30, 66, 1);
+}
+
+.chosenProduct_page .product_content_main .product_share_box {
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  gap: 10px;
+}
+
+.chosenProduct_page .product_content_main .product_guarantee_box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.chosenProduct_page .product_guarantee_box div {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.chosenProduct_page .product_guarantee_box span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(4, 30, 66, 1);
+}
+
+.chosenProduct_page .product_guarantee_box a {
+  margin-left: 10px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration-line: underline;
+
+  color: rgba(4, 30, 66, 1);
+}
